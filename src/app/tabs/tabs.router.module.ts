@@ -7,7 +7,7 @@ const routes: Routes = [
 		path: '',
 		component: TabsPage,
 		children: [
-			{ path: 'profile', loadChildren: '../profile/profile.module#ProfilePageModule' },
+			{ path: 'animes', loadChildren: '../animes/animes.module#AnimesPageModule' },
 		]
 	}	
 ];

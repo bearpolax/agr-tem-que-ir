@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
   { path: 'register', loadChildren: './register/register.module#RegisterPageModule' },
   { path: 'home', loadChildren: './home/home.module#HomePageModule' },
-  { path: 'profile', loadChildren: './profile/profile.module#ProfilePageModule' },
+  { path: 'animes', loadChildren: './animes/animes.module#AnimesPageModule' },
   { path: 'anime', component: AnimeComponent },
   { path: 'adicionar-anime', component: AdicionarAnimeComponent },
   { path: 'detalhes', component: DetalhesComponent },

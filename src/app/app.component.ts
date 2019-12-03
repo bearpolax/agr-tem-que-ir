@@ -26,7 +26,7 @@ export class AppComponent {
     {
       title: 'Animes',
       icon: 'logo-freebsd-devil',
-      url: '/profile',
+      url: '/animes',
     },
     {
       title: 'Minha Lista',

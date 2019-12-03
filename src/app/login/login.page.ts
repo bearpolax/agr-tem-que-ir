@@ -78,7 +78,7 @@ export class LoginPage implements OnInit {
 
     try {
       await this.authService.login(this.userLogin);
-      this.router.navigate(['/adicionar-anime'])
+      this.router.navigate(['/home'])
     } catch (error) {
       this.presentToast(error.message);
     } finally {
