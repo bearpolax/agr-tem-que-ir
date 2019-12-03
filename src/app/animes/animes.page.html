@@ -1,0 +1,1950 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Animes</ion-title>
+  
+  
+    </ion-toolbar>
+  </ion-header>
+  
+  
+  <ion-content>
+      <ion-searchbar></ion-searchbar>
+    <div name="ES">
+    <ion-card>
+      <h6>Akame ga Kill!!</h6>
+    <ion-card-content id="card3">
+        <div>
+          <ion-img id="imagem3"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark">Adicionar à Lista</ion-button>
+      <ion-button  class="detalhes" id="detalhes3" (click)='detalhes3()'>Detalhes</ion-button>
+      <ion-button  class="vermenos" id="vermenos3" (click)='mostrarmenos3()'>Ver Menos</ion-button>
+      <div id="info3" style="display: none">
+        <h6>Nome: Akame ga Kill!</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, Drama </h6>
+        <h6>Subgênero: Fantasia, Terror</h6>
+        <h6>Episódios: 24</h6>
+        <h6>Sinopse: Tatsumi e dois amigos abandonam a sua vila para rumarem à Capital da região. O objetivo passa por ganharem bom dinheiro que lhes permita salvar o povo ao qual pertencem da fome e da mediocridade. Contudo, a Capital não é aquilo que os seus “outsiders” imaginam.</h6>
+        <h6>Estúdio: White Fox</h6>
+        <h6>Escritor e Diretor: Takahiro/Tomoki Kobayashi</h6>
+      </div>
+    </ion-card>
+    </div>
+    <div id="ES">
+    <ion-card>
+  
+  
+      <ion-card-content id="card4">
+        <div>
+          <ion-img id="imagem4"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark">Adicionar à Lista</ion-button>
+      <ion-button class="detalhes" id="detalhes4" (click)='detalhes4()'>Detalhes</ion-button>
+      <ion-button class="vermenos" id="vermenos4" (click)='mostrarmenos4()'>Ver Menos</ion-button>
+      <div id="info4" style="display: none">
+        <h6>Nome: Angel Beats!</h6>
+        <h6>Categoria: Seinen</h6>
+        <h6>Gênero:Ação, escolar </h6>
+        <h6>Subgênero:Comédia, Drama</h6>
+        <h6>Episódios: 13</h6>
+        <h6>Sinopse: Angel Beats ocorre em uma escola de “vida após a morte”, em algum lugar entre o Céu e a Terra, onde os alunos aprendem a abandonar todas as tristezas e arrependimentos que vieram a acontecer em suas vidas, antes de reencarnar em uma nova vida, desaparecendo deste mundo</h6>
+        <h6>Estúdio: P.A. Works</h6>
+        <h6>Escritor e Diretor: Jun Maeda/Seiji Kishia</h6>
+      </div>
+    </ion-card>
+    </div>
+    <div id="FC">
+    <ion-card>
+  
+  
+      <ion-card-content id="card5">
+        <div>
+          <ion-img id="imagem5"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark">Adicionar à Lista</ion-button>
+      <ion-button class="detalhes" id="detalhes5" (click)='detalhes5()'>Detalhes</ion-button>
+      <ion-button class="vermenos" id="vermenos5" (click)='mostrarmenos5()'>Ver Menos</ion-button>
+      <div id="info5" style="display: none">
+        <h6>Nome: Another</h6>
+        <h6>Categoria: Seinen</h6>
+        <h6>Gênero:Mistério </h6>
+        <h6>Subgênero: Terror, Escolar</h6>
+        <h6>Episódios: 12</h6>
+        <h6>Sinopse: Another é um anime Seinen lançado em 2012, com apenas 12 episódios, o anime passa-se em uma escola onde a uma sala ( Sala 3-3) que por sinal existe uma grande maldição... ... 41 anos depois desse acidente, a escola recebe um novo aluno, Sakakibara Kouichi que se muda de Tokyo para Yomiyama, cidade natal de sua mãe.</h6>
+        <h6>Estúdio: P.A. Works</h6>
+        <h6>Escritor e Diretor: Yasuhiro Nightow/Rie Matsumoto</h6>
+      </div>
+    </ion-card>
+    </div>
+    <div id="ES">
+    <ion-card>
+  
+  
+      <ion-card-content id="card6">
+        <div>
+          <ion-img id="imagem6" position="left"></ion-img>
+  
+  
+        </div>
+  
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class="detalhes" id="detalhes6" (click)='detalhes6()'>Detalhes</ion-button>
+      <ion-button class="vermenos" id="vermenos6" (click)='mostrarmenos6()'>Ver Menos</ion-button>
+      <div id="info6" style="display: none">
+        <h6>Nome: Ansatsu Kyoushitsu</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, aventura </h6>
+        <h6>Subgênero: Escolar</h6>
+        <h6>Episódios: 50</h6>
+        <h6>Sinopse: A história é sobre a classe 3-E do Colégio Kunugigaoka, onde todas as manhãs, cumprimentam seu professor com um pelotão de fuzilamento em massa. O professor é uma combinação estranha de um alienígena e um polvo que se move a velocidades de Mach-20. Essa criatura é responsável por destruir 70% da lua,tornando-a sempre em forma de lua crescente. Ele anunciou que vai destruir o mundo em 1 ano. A criatura vai ensinar a classe 3-E como assassiná-lo antes do ano terminar. Mas como pode esta classe de desajustados matar um monstro tentacular, capaz de atingir velocidades de Mach 20, que pode ser o melhor professor que qualquer um deles poderia ter?</h6>
+        <h6>Estúdio: Lerche</h6>
+        <h6>Escritor e Diretor: Yūsei Matsui/Seiji Kishi</h6>
+      </div>
+    </ion-card>
+    </div>
+    <div id="SP">
+    <ion-card>
+  
+  
+      <ion-card-content id="card7">
+        <div>
+          <ion-img id="imagem7" ></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class="detalhes" id="detalhes7" (click)='detalhes7()'>Detalhes</ion-button>
+      <ion-button class="vermenos" id="vermenos7" (click)='mostrarmenos7()'>Ver Menos</ion-button>
+      <div id="info7" style="display: none">
+        <h6>Nome: Aria </h6>
+        <h6>Categoria: Shōjo</h6>
+        <h6>Gênero:Slice of life </h6>
+        <h6>Subgênero: Sci-fi, fantasia</h6>
+        <h6>Episódios: 52</h6>
+        <h6>Sinopse: A série centra-se o quotidiano de Akari Mizunanashi, uma garota que se mudou da Terra para a cidade Neo-Venezia do planeta Aqua. Aqua é um belo planeta envolvido completamente pela água artificialmente. Akari treina para se poder tornar uma undine, que é o nome da profissão da remadora de Aqua.</h6>
+        <h6>Estúdio: Hal Film Maker</h6>
+        <h6>Escritor e Diretor: Kozue Amano/Junichi Sato</h6>
+      </div>
+    </ion-card>
+    </div>
+    <div id="ES">
+    <ion-card>
+  
+  
+      <ion-card-content id="card8">
+        <div>
+          <ion-img id="imagem8"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    </div>
+    <div id="ES">
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class="detalhes" id="detalhes8" (click)='detalhes8()'>Detalhes</ion-button>
+      <ion-button class="vermenos" id="vermenos8" (click)='mostrarmenos8()'>Ver Menos</ion-button>
+      <div id="info8" style="display: none">
+        <h6>Nome: Asobi Asobase</h6>
+        <h6>Categoria: Shōjo</h6>
+        <h6>Gênero:Escolar </h6>
+        <h6>Subgênero: Comédia</h6>
+        <h6>Episódios: 12</h6>
+        <h6>Sinopse: Asobi Asobase é uma comédia sobre três garotas, Hanako, Kasumi e Olivia, que possuem um “Clube de Passatempeiros” em sua escola. ... As piadas de Asobi Asobase são excelentes, algumas são leves ou pesadas, ou trazem um tom dramático muito bem dosado.</h6>
+        <h6>Estúdio: Lerche</h6>
+        <h6>Escritor e Diretor: CRin Suzukawa/Seiji Kishi</h6>
+      </div>
+    </ion-card>
+    </div>
+    <ion-card>
+  
+  
+      <ion-card-content id="card9">
+        <div>
+          <ion-img id="imagem9"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes9" (click)='detalhes9()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos9" (click)='mostrarmenos9()'>Ver Menos</ion-button>
+      <div id="info9" style="display: none">
+        <h6>Nome: Bakuman</h6>
+        <h6>Categoria: Seinen</h6>
+        <h6>Gênero:Comédia, Drama </h6>
+        <h6>Subgênero: Romance</h6>
+        <h6>Episódios: 25</h6>
+        <h6>Sinopse: É a história de dois garotos do 9º ano que querem se tornar mangakás, ou criadores de mangás. Os personagens principais incluem Mashiro Moritaka, que é um desenhista, e Takagi Akito, que é um roteirista. ... Essa é um anime que você não podem deixar de dar uma chance</h6>
+        <h6>Estúdio: J.C.Staff</h6>
+        <h6>Escritor e Diretor: Tsugumi Ohba e Takeshi Obata/Kenichi Kasai e Noriaki Akitaya</h6>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card10">
+        <div>
+          <ion-img id="imagem10"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes10" (click)='detalhes10()'>Detalhes</ion-button>
+      <ion-button class="vermenos" id="vermenos10" (click)='mostrarmenos10()'>Ver Menos</ion-button>
+      <div id="info10" style="display: none">
+        <h6>Nome: Bakugan Battle Brawlers: Mechtanium Surge</h6>
+        <h6>Categoria: Kodomo</h6>
+        <h6>Gênero:Ação, Aaventura </h6>
+        <h6>Subgênero: fantasia, game</h6>
+        <h6>Episódios: 46</h6>
+        <h6>Sinopse: Um ano depois da guerra entre Neathia e Gandelian, Dan, Shun e Marucho se tornaram lendas no InterEspaço Bakugan, que foi remodelado e se tornou uma pequena cidade. Em um dia comum, Drago começa a perder o controle sobre seus poderes e se torna uma ameaça para o planeta Terra, além de acidentalmente libertar uma antiga raça de criaturas chamadas Mechtogan. Consecutivamente, um monstro dimensional chamado Mag Mel está tentando se libertar da sua prisão e para isso começa a formar um exército de Bakugans Negros. A situação dos Guerreiros piora quando duas equipes, o Time Anubias e o Time Sellon, aparecem no InterEspaço com o objetivo de superá-los e adquirirem os títulos de melhores do mundo.</h6>
+        <h6>Estúdio: TMS Entertainment</h6>
+        <h6>Escritor e Diretor: Mitsuo Hashimoto/Mitsuo Hashimoto</h6>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card11">
+        <div>
+          <ion-img id="imagem11"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes11" (click)='detalhes11()'>Detalhes</ion-button>
+      <ion-button class="vermenos" id="vermenos11" (click)='mostrarmenos11()'>Ver Menos</ion-button>
+      <div id="info11" style="display: none">
+        <h6>Nome: Banana Fish</h6>
+        <h6>Categoria: Shoujo</h6>
+        <h6>Gênero:Ação, aventura </h6>
+        <h6>Subgênero: Drama</h6>
+        <h6>Episódios: 24</h6>
+        <h6>Sinopse: A historia dá foco para Ash Lynx, um assassino cruel e implacável, criado como o herdeiro adotivo e brinquedo sexual do ”Papa” Dino Golzine, o rei do crime da East Coast's Corsican. Agora com 17 anos, Ash abandona o reino e a riqueza oferecida pelo diabo que o criou.</h6>
+        <h6>Estúdio: MAPPA</h6>
+        <h6>Escritor e Diretor: Shogakukan/Hiroko Utsumi</h6>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card12">
+        <div>
+          <ion-img id="imagem12"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes12" (click)='detalhes12()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos12" (click)='mostrarmenos12()'>Ver Menos</ion-button>
+      <div id="info12" style="display: none">
+        <h6>Nome: Beelzebub</h6>
+        <h6>Categoria: Seinen</h6>
+        <h6>Gênero:Ação, escolar </h6>
+        <h6>Subgênero: Comédia</h6>
+        <h6>Episódios: 60</h6>
+        <h6>Sinopse: Oga Tatsumi é um estudante do colégio Ishiyama, uma escola para jovens delinquentes que é mais barra pesada que escola de favela. ...</h6>
+        <h6>Estúdio: Pierrot Plus</h6>
+        <h6>Escritor e Diretor: Ryūhei Tamura/Noubuhiro Takamoto</h6>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card13">
+        <div>
+          <ion-img id="imagem13"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes13" (click)='detalhes13()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos13" (click)='mostrarmenos13()'>Ver Menos</ion-button>
+      <div id="info13" style="display: none">
+        <h6>Nome: Berserk</h6>
+        <h6>Categoria: Seinen</h6>
+        <h6>Gênero:Ação, aventura </h6>
+        <h6>Subgênero: Romance, Horror</h6>
+        <h6>Episódios: 12</h6>
+        <h6>Sinopse: Guts é um guerreiro errante e antigo Comandante da Tropa de Assalto da renomada unidade mercenária conhecida como o "Bando do Falcão" (鷹の団 Taka no Dan?). Ele, agora, caça criaturas demoníacas chamadas Apóstolos, humanos que fizeram um pacto com um grupo de arquidemônios conhecidos como "A Mão de Deus" que exige o sacrifício de qualquer coisa ou pessoa que for mais achegado a eles em troca de um poder sobrenatural incrível.</h6>
+        <h6>Estúdio: Millepensee, GEMBA</h6>
+        <h6>Escritor e Diretor: Kentaro Miura/Shin Itagaki</h6>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card14">
+        <div>
+          <ion-img id="imagem14"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes14" (click)='detalhes14()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos14" (click)='mostrarmenos14()'>Ver Menos</ion-button>
+      <div id="info14" style="display: none">
+        <h6>Nome: Beyblade Burst</h6>
+        <h6>Categoria: Kodomo</h6>
+        <h6>Gênero:Ação, aventura </h6>
+        <h6>Subgênero: Sci-fi, esportes</h6>
+        <h6>Episódios: 51</h6>
+        <h6>Sinopse: Beyblade Burst apresenta um cenário, em que meninos de todo o mundo colocam seus corações e almas em ferozes batalhas de Beyblade. A trama é protagonizada por Valt Aoi, um aluno de escola primária e 'viciado' por esses jogos.</h6>
+        <h6>Estúdio: OLM</h6>
+        <h6>Escritor e Diretor: Hiro Morita/Katsuhito Akiyama</h6>
+        <ion-item href="https://animesonline.vip/beyblade-burst-dublado/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card15">
+        <div>
+          <ion-img id="imagem15"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes15" (click)='detalhes15()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos15" (click)='mostrarmenos15()'>Ver Menos</ion-button>
+      <div id="info15" style="display: none">
+        <h6>Nome:Bleach</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, Aventura </h6>
+        <h6>Subgênero: Superpoder, Sobrenatural</h6>
+        <h6>Episódios: 366</h6>
+        <h6>Sinopse: Kurosaki Ichigo é um garoto de 15 anos que pode ver, tocar e falar com espíritos de pessoas mortas. Até que um dia ele encontra Kuchiki Rukia, uma Shinigami (deus da morte), e descobre posteriormente que também é um Shinigami. Agora, com seus poderes, ele terá que proteger sua cidade de forças do mal</h6>
+        <h6>Estúdio: Studio Pierrot</h6>
+        <h6>Escritor e Diretor: Tite Kubo/Noriyuki Abe</h6>
+        <ion-item href="https://www.anitube.site/872340/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card16">
+        <div>
+          <ion-img id="imagem16"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes16" (click)='detalhes16()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos16" (click)='mostrarmenos16()'>Ver Menos</ion-button>
+      <div id="info16" style="display: none">
+        <h6>Nome: Blend S</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Slice of life </h6>
+        <h6>Subgênero: Comédia</h6>
+        <h6>Episódios: 12</h6>
+        <h6>Sinopse:  história é centrada em uma garota chamada Maika, que consegue emprego em um café onde todas as garçonetes recebem certos atributos – como “tsundere” ou “irmã mais nova” – para encarnar enquanto servem os clientes.</h6>
+        <h6>Estúdio: A-1 Pictures</h6>
+        <h6>Escritor e Diretor: Miyuki Nakayama/Ryōji Masuyama</h6>
+        <ion-item href="https://goyabu.com/anime/blend-s/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card17">
+        <div>
+          <ion-img id="imagem17"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick2()" [disabled]="disableButton2">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes17" (click)='detalhes17()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos17" (click)='mostrarmenos17()'>Ver Menos</ion-button>
+      <div id="info17" style="display: none">
+        <h6>Nome: Boku no Hero Academia</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, comédia </h6>
+        <h6>Subgênero: Fantasia, super poder</h6>
+        <h6>Episódios: 13</h6>
+        <h6>Sinopse: Em um mundo onde 80% da população possui algum poder sobre-humano, ou "dons", conhecidos como individualidades, o garoto Midoriya Izuku teve a infelicidade de nascer sem nenhum. Nesse mundo fictício, desde o primeiro caso constatado de um recém nascido com algum tipo de poder, o índice de criminalidade cresceu proporcional ao surgimento de heróis com as mais variadas capacidades. E, como não poderia deixar de ser, o sonho de Izuku é se tornar um super-herói. Isso parecia impossível até o dia que ele ajuda o poderoso All-Might na captura de um vilão gosmento. All-Might, vendo que Izuku tem a atitude e o coração de um verdadeiro herói, mesmo sem possuir qualquer poder, resolve passá-lo seus poderes, a fim de torná-lo seu sucessor como o símbolo da paz. E assim Izuku vai à uma escola para heróis em formação.</h6>
+        <h6>Estúdio: Bones</h6>
+        <h6>Escritor e Diretor: Kōhei Horikoshi/Kenji Nagasaki</h6>
+        <ion-item href="https://www.animesroll.com/a/Qm9rdSBubyBIZXJvIEFjYWRlb">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card18">
+        <div>
+          <ion-img id="imagem18"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes18" (click)='detalhes18()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos18" (click)='mostrarmenos18()'>Ver Menos</ion-button>
+      <div id="info18" style="display: none">
+        <h6>Nome: B: The Beginning</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, Sobrenatural </h6>
+        <h6>Subgênero: Policial, Romance</h6>
+        <h6>Episódios: 12</h6>
+        <h6>Sinopse: Em um mundo engrandecido pela tecnologia avançada, crimes e muita ação se desenrolam na nação do arquipélago de Cremona. Koku, o protagonista. Keith, o lendário investigador da força policial real RIS.</h6>
+        <h6>Estúdio: Production I.G</h6>
+        <h6>Escritor e Diretor: Kazuto Nakazawa/Kazuto Nakazawa</h6>
+        <ion-item href="https://www.branimes.com/b-the-beginning-online/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card19">
+        <div>
+          <ion-img id="imagem19"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick3()" [disabled]="disableButton3">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes19" (click)='detalhes19()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos19" (click)='mostrarmenos19()'>Ver Menos</ion-button>
+      <div id="info19" style="display: none">
+        <h6>Nome:Charlotte</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Drama </h6>
+        <h6>Subgênero: Superpoder, escolar</h6>
+        <h6>Episódios: 13</h6>
+        <h6>Sinopse: A história gira em torno de habilidades especiais que ocorrem entre um pequeno percentual de meninos e meninas na puberdade. Yuu Otosaka usa seu poder sem os outros perceberem, e vive uma vida escolar bastante normal. Até que aparece uma menina, Nao Tomori</h6>
+        <h6>Estúdio: P.A. Works</h6>
+        <h6>Escritor e Diretor: Jun Maeda/Yoshiyuki Asai</h6>
+        <ion-item href="https://goyabu.com/anime/charlotte/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card20">
+        <div>
+          <ion-img id="imagem20"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes20" (click)='detalhes20()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos20" (click)='mostrarmenos20()'>Ver Menos</ion-button>
+      <div id="info20" style="display: none">
+        <h6>Nome: Clannad: After Story</h6>
+        <h6>Categoria: Seinen</h6>
+        <h6>Gênero:Romance, Drama </h6>
+        <h6>Subgênero: Supernatural</h6>
+        <h6>Episódios: 24</h6>
+        <h6>Sinopse: A história começa na segunda-feira 14 de abril de 2003, no início do ano letivo, quando Tomoya encontra por acaso Nagisa Furukawa, uma garota de fala suave um ano mais velha que ele, que está repetindo o ano escolar por ter ficado muito doente no ano anterior.Seu objetivo é participar do clube de teatro para o qual ela </h6>
+        <h6>Estúdio: Kyoto Animation</h6>
+        <h6>Escritor e Diretor: Key/Tatsuya Ishihara</h6>
+        <ion-item href="https://animeskai.com.br/clannad-after-story-todos-os-episodios/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card21">
+        <div>
+          <ion-img id="imagem21"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes21" (click)='detalhes21()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos21" (click)='mostrarmenos21()'>Ver Menos</ion-button>
+      <div id="info21" style="display: none">
+        <h6>Nome:Canaan</h6>
+        <h6>Categoria: Seinen</h6>
+        <h6>Gênero:Ação </h6>
+        <h6>Subgênero: Sobrenatural, superpoder</h6>
+        <h6>Episódios: 13</h6>
+        <h6>Sinopse: Canaan é uma história de Type-moon (Fate/stay night e Tsukihime) baseado no cenário bônus presente no jogo 428 ~Fuusasareta Shibuya ~ para Wii. A trama principal do jogo é sobre um ataque terrorista que está prestes a acontecer em Shibuya e termina com o caso solucionado. O anime continua com a personagem Canaan perseguindo a mandante do crime. Alguns personagens do jogo também estarão presentes no anime.</h6>
+        <h6>Estúdio:  P.A. Works</h6>
+        <h6>Escritor e Diretor: Masahiro Andō/Type-Moon</h6>
+        <ion-item href="https://www.anitube.site/64382/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card22">
+        <div>
+          <ion-img id="imagem22"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes22" (click)='detalhes22()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos22" (click)='mostrarmenos22()'>Ver Menos</ion-button>
+      <div id="info22" style="display: none">
+        <h6>Nome: Capeta</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, Drama </h6>
+        <h6>Subgênero: Carros, esporte</h6>
+        <h6>Episódios: 52</h6>
+        <h6>Sinopse: Baseado no mangá de Formula 1 criado por Soda Masahito, contando sobre Capeta Taira, um garoto da quarta série que gosta muito de carros, mas que tem tédio da sua vida por ter o seu pai ocupado com o trabalho. Um dia o pai do Capeta traz peças velhas do seu trabalho e monta um kart para o Capeta. Mesmo com diversos problemas no kart montado, Capeta consegue pilotar e ainda por cima consegue ganhar do campeão junior de kart japonês que estava correndo na mesma pista. Com isso, a mãe de Naomi que estava olhando, convida o Capeta para participar da corrida oficial.</h6>
+        <h6>Estúdio: Studio Comet</h6>
+        <h6>Escritor e Diretor: Masahito Soda/Shin Misawa</h6>
+        <ion-item href="https://www.anitube.site/64320/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card23">
+        <div>
+          <ion-img id="imagem23"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes23" (click)='detalhes23()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos23" (click)='mostrarmenos23()'>Ver Menos</ion-button>
+      <div id="info23" style="display: none">
+        <h6>Nome: Danganronpa 3: The End of Kibougamine Gakuen - Zetsubou-hen</h6>
+        <h6>Categoria: Seinen</h6>
+        <h6>Gênero:Ação, Horror </h6>
+        <h6>Subgênero:Mistério, Escolar</h6>
+        <h6>Episódios: 24</h6>
+        <h6>Sinopse: História anterior ao jogo de PSP Danganronpa 2: Goodbye Despair. Contará a história dos Remanescentes do Desespero.</h6>
+        <h6>Estúdio: Lerche</h6>
+        <h6>Escritor e Diretor: Kazutaka Kodaka/Seiji Kishi </h6>
+        <ion-item href="https://goyabu.com/anime/danganronpa-3-the-end-of-kibougamine-gakuen-zetsubou-hen/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card24">
+        <div>
+          <ion-img id="imagem24"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes24" (click)='detalhes24()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos24" (click)='mostrarmenos24()'>Ver Menos</ion-button>
+      <div id="info24" style="display: none">
+        <h6>Nome: Darling in the FranXX</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, Drama </h6>
+        <h6>Subgênero: Mecha, Romance</h6>
+        <h6>Episódios: 24</h6>
+        <h6>Sinopse: Em um futuro pós-apocalíptico, a humanidade está sob ameaça constante de criaturas gigantes conhecidas apenas como "urrossauros", que são subdivididos em pelo menos quatro categorias de acordo com a sua dimensão: "Conrad", "Mohorovičić", "Gutenberg" e " Lehmann". Empurrados para a beira da aniquilação, os remanescentes da humanidade que são conduzidos por uma misteriosa organização conhecida como APE abandonam a superfície da Terra, agora um deserto sem vida, para a relativa segurança de cidades fortalezas móveis conhecidas como "latifúndios". Para defender os latifúndios dos urrossauros, casais de crianças chamadas "parasitas", se tornam pilotos de robôs gigantes conhecido como "Franxx".</h6>
+        <h6>Estúdio: A-1 Pictures, Trigger,CloverWorks</h6>
+        <h6>Escritor e Diretor: Mato/Atsushi Nishigori Toshifumi </h6>
+        <ion-item href="https://goyabu.com/anime/darling-in-the-franxx/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card25">
+        <div>
+          <ion-img id="imagem25"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes25" (click)='detalhes25()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos25" (click)='mostrarmenos25()'>Ver Menos</ion-button>
+      <div id="info25" style="display: none">
+        <h6>Nome: Death Parade</h6>
+        <h6>Categoria: Seinen</h6>
+        <h6>Gênero:Drama </h6>
+        <h6>Subgênero: Mistério, Psicológico, Game</h6>
+        <h6>Episódios: 12</h6>
+        <h6>Sinopse: Após a morte, os humanos são mandados para a reencarnação ou para o vácuo. Mas alguns acabam indo parar no Quindecim, um bar onde um bartender misterioso de cabelos brancos, chamado Decim, trabalha.</h6>
+        <h6>Estúdio: Madhouse</h6>
+        <h6>Escritor e Diretor:  Yuzuru Tachikawa/Yuzuru Tachikawa</h6>
+        <ion-item href="https://goyabu.com/anime/death-parade/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card26">
+        <div>
+          <ion-img id="imagem26"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes26" (click)='detalhes26()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos26" (click)='mostrarmenos26()'>Ver Menos</ion-button>
+      <div id="26" style="display: none">
+        <h6>Nome: Death Note </h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Mistérios, pisicológico </h6>
+        <h6>Subgênero: Supernatural, thriller(rusbé</h6>
+        <h6>Episódios: 37</h6>
+        <h6>Sinopse: O Anime Death Note é uma história que gira em torno de um estudante do ensino médio chamado Light Yagami, que descobre um caderno sobrenatural que lhe permite matar Todos que escrever o nome completo, enquanto imaginando o seu rosto.</h6>
+        <h6>Estúdio: Madhouse</h6>
+        <h6>Escritor e Diretor: Tsugumi Ohba/Tetsurō Araki</h6>
+        <ion-item href="https://www.animalog.online/video/33896">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card27">
+        <div>
+          <ion-img id="imagem27"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes27" (click)='detalhes27()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos27" (click)='mostrarmenos27()'>Ver Menos</ion-button>
+      <div id="info27" style="display: none">
+        <h6>Nome: Digimon Adventure</h6>
+        <h6>Categoria: Kodomo</h6>
+        <h6>Gênero:Ação, Aventura </h6>
+        <h6>Subgênero: Fantasia, Kids</h6>
+        <h6>Episódios: 54</h6>
+        <h6>Sinopse: Em 1 de agosto de 1999, sete crianças: Taichi "Tai" Kamiya, Yamato "Matt" Ishida, Sora Takenouchi, Koushiro "Izzy" Izumi, Mimi Tachikawa, Joe Kido, e Takeru "T.K." Takaishi estão em um acampamento de verão quando, inesperadamente, uns estranhos aparelhos caem do céu - os digivices (digital devices ou dispositivos digitais) e elas são transportadas para o Mundo Digital (Digimundo), mais propriamente para uma ilha conhecida como Ilha Arquivo. Cada uma das crianças conhece um digimon que se torna seu companheiro. Para tentarem regressar a casa, as crianças percebem que existem digimons bons e digimons maus. Eles iniciam uma luta contra os inimigos que pretendem dominar o Digimundo com a força das trevas, contando com a ajuda dos seus digimons que, com o passar do tempo, se tornam mais poderosos e conseguem se converter em criaturas maiores e mais fortes.</h6>
+        <h6>Estúdio: Toei Animation</h6>
+        <h6>Escritor e Diretor: Akiyoshi Hongo/ Akiyoshi Hongo</h6>
+        <ion-item href="https://goyabu.com/anime/digimon-adventure/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card28">
+        <div>
+          <ion-img id="imagem28"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes28" (click)='detalhes28()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos28" (click)='mostrarmenos28()'>Ver Menos</ion-button>
+      <div id="info28" style="display: none">
+        <h6>Nome: Dororo</h6>
+        <h6>Categoria: Seinen</h6>
+        <h6>Gênero:Ação, aventura </h6>
+        <h6>Subgênero: Supernatural</h6>
+        <h6>Episódios: 24</h6>
+        <h6>Sinopse: Dororo (どろろ) é uma série de mangá publicada pelo mangaká Osamu Tezuka em 1967. A série de anime de 1969 foi baseada no mangá e teve 26 episódios com meia hora de duração.</h6>
+        <h6>Estúdio: Tezuka Productions, MAPPA</h6>
+        <h6>Escritor e Diretor: Osamu Tezuka/Kazuhiro Furuhashi</h6>
+        <ion-item href="https://goyabu.com/anime/dororo/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card29">
+        <div>
+          <ion-img id="imagem29"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes29" (click)='detalhes29()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos29" (click)='mostrarmenos29()'>Ver Menos</ion-button>
+      <div id="info29" style="display: none">
+        <h6>Nome: Dragon Ball Z</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, aventura </h6>
+        <h6>Subgênero: Comédia, fantasia</h6>
+        <h6>Episódios: 291</h6>
+        <h6>Sinopse: O irmão de Son Goku (protagonista da série Dragon Ball) aparece na Terra e lhe informa que sua família pertence a outro planeta. Goku foi enviado ainda bebê para a Terra com o intuito de conquistá-la. Ao ser relembrado de sua missão, Goku recusa-se a ajudar seu irmão e os Sayajins.</h6>
+        <h6>Estúdio: Toei Animation</h6>
+        <h6>Escritor e Diretor: Akira Toriyama/Daisuke Nishio</h6>
+        <ion-item href="https://animesbz.com/video/online/35632/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card30">
+        <div>
+          <ion-img id="imagem30"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes30" (click)='detalhes30()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos30" (click)='mostrarmenos30()'>Ver Menos</ion-button>
+      <div id="info30" style="display: none">
+        <h6>Nome: Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka </h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ecchi, comédia </h6>
+        <h6>Subgênero: Fantasia</h6>
+        <h6>Episódios: 13</h6>
+        <h6>Sinopse: A história mostra a rotina de Bell Cranel, um aventureiro de 14 anos guiado pela sua deusa, Hestia. Como único membro da Familia Hestia, ele trabalha duro todos os dias na masmorra para sobreviver enquanto dá o melhor para se aperfeiçoar. Ele observa Aiz Wallenstein, uma poderosa espadachim que uma vez salvou sua vida, e por quem ele se apaixonou. Ele não sabe que várias outras meninas, divindades e mortais semelhantes também desenvolvem afeto por ele; mais notavelmente a própria Hestia.</h6>
+        <h6>Estúdio: J.C.Staff</h6>
+        <h6>Escritor e Diretor: Fujino Ōmori/Yoshiki Yamakawa</h6>
+        <ion-item href="https://goyabu.com/anime/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-no-darou-ka/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card31">
+        <div>
+          <ion-img id="imagem31"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes31" (click)='detalhes31()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos31" (click)='mostrarmenos31()'>Ver Menos</ion-button>
+      <div id="info31" style="display: none">
+        <h6>Nome: Durarara!!</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, mistério </h6>
+        <h6>Subgênero: Supernatural</h6>
+        <h6>Episódios: 24</h6>
+        <h6>Sinopse: Ryuugamine Mikado é um garoto que almeja a vida agitada da cidade grande. A convite de seu amigo de infância Masaomi Kida, ele se transfere para uma escola em Ikebukuro</h6>
+        <h6>Estúdio: Brain's Base</h6>
+        <h6>Escritor e Diretor: Ryohgo Narita/Takahiro Omori</h6>
+        <ion-item href="https://www.animalog.online/video/44035">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card32">
+        <div>
+          <ion-img id="imagem32"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes32" (click)='detalhes32()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos32" (click)='mostrarmenos32()'>Ver Menos</ion-button>
+      <div id="info32" style="display: none">
+        <h6>Nome:Elfen Lied</h6>
+        <h6>Categoria: Seinen</h6>
+        <h6>Gênero:Ação, Horror, Romance </h6>
+        <h6>Subgênero: Drama, Sobrenatural</h6>
+        <h6>Episódios: 13</h6>
+        <h6>Sinopse: Anime: Elfen Lied. Sinopse: O anime conta a história de seres humanos mutantes, chamados Diclonius, onde possuem grandes poderes e, que com esses poderes, se tornam uma grande ameaça a humanidade, por isso eles foram presos em um laboratório pelo governo</h6>
+        <h6>Estúdio: Arms</h6>
+        <h6>Escritor e Diretor: Lynn Okamoto/Mamoru Kanbe</h6>
+        <ion-item href="https://www.anitube.site/57723/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card33">
+        <div>
+          <ion-img id="imagem33"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes33" (click)='detalhes33()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos33" (click)='mostrarmenos33()'>Ver Menos</ion-button>
+      <div id="info33" style="display: none">
+        <h6>Nome:Fairy Tail</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, aventura </h6>
+        <h6>Subgênero: Comédia, fantasia</h6>
+        <h6>Episódios: 300</h6>
+        <h6>Sinopse: Após salvar Lucy, Natsu, que é mago de uma das guildas mais famosas, a Fairy Tail, convida a garota para juntar-se a guilda. Assim, Lucy entra para a Fairy Tail, onde começa a viver todo tipo de missão perigosa junto com Natsu, Happy e seus amigos, também magos da guilda, Erza Scarlet e Gray Fullbuster.</h6>
+        <h6>Estúdio: Satelight, A-1 Pictures</h6>
+        <h6>Escritor e Diretor: Hiro Mashima/Shinji Ishihara</h6>
+        <ion-item href="https://www.anitube.site/86894/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card34">
+        <div>
+          <ion-img id="imagem34"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes34" (click)='detalhes34()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos34" (click)='mostrarmenos34()'>Ver Menos</ion-button>
+      <div id="info34" style="display: none">
+        <h6>Nome: Fate/stay night: Unlimited Blade Works</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, fantasia </h6>
+        <h6>Subgênero: Magia, supernatural</h6>
+        <h6>Episódios: 24</h6>
+        <h6>Sinopse: A narrativa se passa na cidade japonesa fictícia Fuyuki, em 2004. Onde um ritual chamado Guerra do Santo Graal, que acontece apenas a cada sessenta anos, esta prestes a começar. Nesse conflito, sete magos lutam entre si para adquirirem o artefato lendário - o Santo Graal, que supostamente é capaz de realizar qualquer desejo. Para que possam participar da guerra, cada mago deve primeiro ser escolhido pelo Santo Graal para se tornar um Mestre, para que então possam invocar seus respectivos Servos. Esses Servos são Espíritos Heroicos - figuras históricas ou fictícias que se tornaram conhecidas como heróis devido aos seus feitos durante suas vidas. Os Servos são divididos em sete classes de acordo com as suas habilidades e características: Saber, Archer, Lancer, Rider, Caster, Assassin e Berserker.</h6>
+        <h6>Estúdio: Ufotable</h6>
+        <h6>Escritor e Diretor: Nishiwaki Datto/Yuji Yamaguchi</h6>
+        <ion-item href="https://www.anitube.site/56832/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card35">
+        <div>
+          <ion-img id="imagem35"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes35" (click)='detalhes35()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos35" (click)='mostrarmenos35()'>Ver Menos</ion-button>
+      <div id="info35" style="display: none">
+        <h6>Nome: Fate/Zero</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, aventura </h6>
+        <h6>Subgênero: Supernatural</h6>
+        <h6>Episódios: 13</h6>
+        <h6>Sinopse: Fate/Zero conta a história de Kiritsugu Emiya, um mago que é contratado pela família dos Einzberns para vencer a guerra. Enquanto isso Kirei Kotomine, um executor da Igreja entra na guerra por ordens de seu pai para ajudar um aliado, Tokiomi Tohsaka a vencer a guerra</h6>
+        <h6>Estúdio: Ufotable</h6>
+        <h6>Escritor e Diretor: Gen Urobuchi/Ei Aoki</h6>
+        <ion-item href="https://www.anitube.site/56755/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card36">
+        <div>
+          <ion-img id="imagem36"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes36" (click)='detalhes36()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos36" (click)='mostrarmenos36()'>Ver Menos</ion-button>
+      <div id="info36" style="display: none">
+        <h6>Nome: Free!</h6>
+        <h6>Categoria: Shōjo</h6>
+        <h6>Gênero:Escolar, Drama  </h6>
+        <h6>Subgênero: Slice of life, esportes</h6>
+        <h6>Episódios: 12</h6>
+        <h6>Sinopse: Free! começa com quatro meninos — Haruka, Makoto, Nagisa e Rin — antes de sua graduação da 6ª série. O grupo havia participado de um torneio de natação e venceram, mas tiveram de se separar. Anos depois, Haruka, Makoto e Nagisa se reúnem novamente no ensino médio. Rin, que estava na Austrália, aparece desafiando Haruka para uma corrida e vence. Depois disso, Nagisa convence os outros dois a criarem um clube de natação. Haruka, Makoto, Nagisa e, mais tarde, Rei, formam o clube de natação do colégio Iwatobi e trabalham juntos para fazê-lo um sucesso. Rin percebe que sua vitória contra Haruka não significou nada, já que seu rival havia parado de nadar competitivamente e não estava no auge da sua forma física. Ele diz não poder "seguir em frente" até competir com Haruka no mesmo nível. Os membros do clube entram numa competição de natação contra Rin.</h6>
+        <h6>Estúdio: Kyoto Animation, Animation Do</h6>
+        <h6>Escritor e Diretor: Hiroko Utsumi/Hiroko Utsumi</h6>
+        <ion-item href="https://goyabu.com/video/11510/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card37">
+        <div>
+          <ion-img id="imagem37"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes37" (click)='detalhes37()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos37" (click)='mostrarmenos37()'>Ver Menos</ion-button>
+      <div id="info37" style="display: none">
+        <h6>Nome:FullmetalAlchemist:Brothehood</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero: Ação, Aventura,  Comedia </h6>
+        <h6>Subgênero: Magia, Fantasia</h6>
+        <h6>Episódios: 64</h6>
+        <h6>Sinopse: Ainda crianças, Edward e Alphonse Elric perderam sua mãe. Os irmãos, então, decidem usar seus conhecidos para tentar quebrar o maior tabu da Alquimia: a transmutação humana. Mas a tentativa dá errado. Ed perde seu braço direito e sua perna esquerda</h6>
+        <h6>Estúdio: Bones</h6>
+        <h6>Escritor e Diretor: Hiromu Arakawa/ Yasuhiro Irie</h6>
+        <ion-item href="https://www.anitube.site/75908/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card38">
+        <div>
+          <ion-img id="imagem38"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes38" (click)='detalhes38()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos38" (click)='mostrarmenos38()'>Ver Menos</ion-button>
+      <div id="info38" style="display: none">
+        <h6>Nome:Fresh Precure!</h6>
+        <h6>Categoria: Shoujo</h6>
+        <h6>Gênero:Ação, slice of life, comédia </h6>
+        <h6>Subgênero: Fantasia, magia</h6>
+        <h6>Episódios: 50</h6>
+        <h6>Sinopse: A série mostra o perigo do grupo Labyrinth, uma dimensão paralela que pretende colher as lagrimas de tristezas do povo da cidade de Yotsuba para aumentar o poder de seu senhor Moebius e para enfrentá-los surgem as Fresh! Pretty Cure Love, Miki e Inori, três garotas de diferentes escolas e amigas desde a infância.</h6>
+        <h6>Estúdio: Toei Animation</h6>
+        <h6>Escritor e Diretor: Atsushi Maekawa/Daisuke Nishio</h6>
+        <ion-item href="https://goyabu.com/video/11547/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card39">
+        <div>
+          <ion-img id="imagem39"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes39" (click)='detalhes39()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos39" (click)='mostrarmenos39()'>Ver Menos</ion-button>
+      <div id="info39" style="display: none">
+        <h6>Nome: Gintama°</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação </h6>
+        <h6>Subgênero: Comédia, samurai, Sci-fi</h6>
+        <h6>Episódios: 201</h6>
+        <h6>Sinopse: Sakata Gintoki é um preguiçoso ex-samurai viciado em doces e líder do Yorozuya Gin-chan, uma organização que faz qualquer tipo de trabalho por dinheiro. ... Os três integrantes do Yorozuya entram em grandes confusões e aceitam qualquer trabalho para fazer do mundo um lugar melhor.</h6>
+        <h6>Estúdio:  Bandai Namco Pictures</h6>
+        <h6>Escritor e Diretor: Hideaki Sorachi/Shinji Takamatsu, Yoichi Fujita </h6>
+        <ion-item href="https://goyabu.com/anime/gintama/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card40">
+        <div>
+          <ion-img id="imagem40"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes40" (click)='detalhes40()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos40" (click)='mostrarmenos40()'>Ver Menos</ion-button>
+      <div id="info40" style="display: none">
+        <h6>Nome: Girls & Panzer</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, escolar </h6>
+        <h6>Subgênero: Esporte</h6>
+        <h6>Episódios: 12</h6>
+        <h6>Sinopse: A história desenrola-se num universo onde largas comunidades de pessoas vivem a bordo de grandes porta-aviões em cidades construídas sobre os mesmos. Cada porta-aviões contém uma academia diferente e por isso os porta-aviões são conhecidos por Academy Ships. Das muitas actividades que as meninas podem participar na academia, uma das mais populares é o "sensha-dō", "the way of the tank" em inglês ou a "arte do tanque" em português. Para além de ser encarado como um desporto competitivo, o sensha-dō consiste na arte de operar tanques de guerra e é considerado uma arte marcial apropriada para meninas. O Ōarai Girls High School é uma escola para meninas do ensino secundário, e por isso competem com tanques da Segunda Guerra Mundial.</h6>
+        <h6>Estúdio: Actas</h6>
+        <h6>Escritor e Diretor: Ryūichi Saitaniya/Tsutomu Mizushima</h6>
+        <ion-item href="https://goyabu.com/anime/girls-und-panzer/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card41">
+        <div>
+          <ion-img id="imagem41"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes41" (click)='detalhes41()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos41" (click)='mostrarmenos41()'>Ver Menos</ion-button>
+      <div id="info41" style="display: none">
+        <h6>Nome:Goblin Slayer</h6>
+        <h6>Categoria: Seinen</h6>
+        <h6>Gênero:Ação, Aventura </h6>
+        <h6>Subgênero:Fantasia</h6>
+        <h6>Episódios: 13</h6>
+        <h6>Sinopse: Uma jovem sacerdotisa forma seu primeiro bando de aventureiros, mas eles imediatamente se metem em apuros. É então que o Mata-Goblins vem a seu resgate - um homem que dedica sua vida a exterminar todos os goblins, custe o que custar</h6>
+        <h6>Estúdio: White Fox</h6>
+        <h6>Escritor e Diretor: Kōsuke Kurose/Takaharu Ozaki</h6>
+        <ion-item href="https://goyabu.com/anime/goblin-slayer/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card42">
+        <div>
+          <ion-img id="imagem42"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes42" (click)='detalhes42()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos42" (click)='mostrarmenos42()'>Ver Menos</ion-button>
+      <div id="info42" style="display: none">
+        <h6>Nome:Gotoubun no Hanayome</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Harem, Comédia </h6>
+        <h6>Subgênero: Romance, Escolar</h6>
+        <h6>Episódios: 12</h6>
+        <h6>Sinopse: Um dia, um estudante do segundo ano do ensino médio chamado Futaro Uesugi é chamado para ser tutor de cinco irmãs. Mas ele se depará com suas colegas de classe! todas elas são garotas lindas, mas também são desordeiras que odeiam estudar e estão prestes a ser reprovadas! Sua primeira tarefa é ganhar a confiança das irmãs. O mesmo tempo, elas farão de tudo para se livrar dele.</h6>
+        <h6>Estúdio:  Tezuka Productions</h6>
+        <h6>Escritor e Diretor: Negi Haruba/Satoshi Kuwabara</h6>
+        <ion-item href="https://goyabu.com/anime/gotoubun-no-hanayome/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card43">
+        <div>
+          <ion-img id="imagem43"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes43" (click)='detalhes43()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos43" (click)='mostrarmenos43()'>Ver Menos</ion-button>
+      <div id="info43" style="display: none">
+        <h6>Nome:Grand Blue</h6>
+        <h6>Categoria: Seinen</h6>
+        <h6>Gênero:Drama </h6>
+        <h6>Subgênero: Comédia, Slice of life</h6>
+        <h6>Episódios: 12</h6>
+        <h6>Sinopse: Uma nova vida começa para Kitahara Iori, que acaba de ingressar na faculdade, perto do mar na cidade de Izu. Emocionado por um novo começo, ele se muda para casa do seu tio, uma loja de mergulho chamada "Grand Blue". Lá, ele encontra um lindo oceano, belas mulheres e homens que gostam de mergulho e álcool....Será Iori capaz de viver sua tão sonhada vida universitária?</h6>
+        <h6>Estúdio: Zero-G</h6>
+        <h6>Escritor e Diretor: Kenji Inoue/Shinji Takamatsu</h6>
+        <ion-item href="https://goyabu.com/anime/grand-blue/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card44">
+        <div>
+          <ion-img id="imagem44"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes44" (click)='detalhes44()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos44" (click)='mostrarmenos44()'>Ver Menos</ion-button>
+      <div id="info44" style="display: none">
+        <h6>Nome:Guilty Crown</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, Sci-fi </h6>
+        <h6>Subgênero: Drama, Superpoder</h6>
+        <h6>Episódios: 22</h6>
+        <h6>Sinopse: Shu é um grande fã de Inori. Contudo, ele também descobre um outro lado dela: ela é um membro da Undertaker, uma organização de oposição que tem o objetivo de libertar o Japão da GHQ.</h6>
+        <h6>Estúdio:  Production I.G</h6>
+        <h6>Escritor e Diretor: Monthly Shōnen Gangan/Tetsuro Araki</h6>
+        <ion-item href="https://goyabu.com/anime/guilty-crown/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card45">
+        <div>
+          <ion-img id="imagem45"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes45" (click)='detalhes45()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos45" (click)='mostrarmenos45()'>Ver Menos</ion-button>
+      <div id="info45" style="display: none">
+        <h6>Nome: Haikyuu!!</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Romance, Escolar </h6>
+        <h6>Subgênero: Comédia</h6>
+        <h6>Episódios: 25</h6>
+        <h6>Sinopse: O estudante do ensino médio Shōyō Hinata se apega ao voleibol depois de ver um jogo do campeonato nacional na televisão. Embora não seja muito alto, ele se determina a seguir os passos do ídolo do campeonato, apelidado de "Pequeno Gigante", depois de ver seus jogos. Ele cria um clube de voleibol e começa a praticar sozinho. Eventualmente, os outros cinco membros juntam-se à equipa no seu último ano do ensino fundamental, mas são derrotados em seu primeiro torneio depois de serem desafiados pela equipa favorita do campeonato, que inclui o chamado "Rei da Corte" Tobio Kageyama, na primeira rodada. Embora a equipa de Shōyō sofra uma derrota miserável, ele promete eventualmente superar Tobio e derrotá-lo</h6>
+        <h6>Estúdio: Production I.G</h6>
+        <h6>Escritor e Diretor:Haruichi Furudate/Susumu Mitsunaka</h6>
+        <ion-item href="https://goyabu.com/anime/haikyuu/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card46">
+        <div>
+          <ion-img id="imagem46"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes46" (click)='detalhes46()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos46" (click)='mostrarmenos46()'>Ver Menos</ion-button>
+      <div id="info46" style="display: none">
+        <h6>Nome: Hajime no Ippo: Rising</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Esporte, Drama </h6>
+        <h6>Subgênero: Comédia</h6>
+        <h6>Episódios: 25</h6>
+        <h6>Sinopse: Ippo Makunouchi é um garoto de 16 anos bastante tímido, trabalha com sua mãe que possui uma loja que aluga barco para pescaria. Devido ao trabalho, ele nunca possui tempo livre para praticar esportes e fazer amigos. Um certo dia uns garotos de seu colégio o cercam no caminho de casa, e começam a bater em Ippo, até que aparece um famoso boxeador Mamoru Takamura, para salvá-lo. Eis então que Takamura pede para Ippo golpear o saco de areia. Todos ficam impressionados como alguém que nunca treinou boxe consegue ter um soco tão forte (esta é sua principal característica, ter socos bastante fortes). Ao ver que Ippo tem talento, Takamura decide emprestar alguns vídeos de boxe. Quando Ippo vê estes vídeos, ele deseja ser um boxeador profissional como Takamura com o objetivo de saber "o que é ser forte?". Impressionado com a força de Takamura, Ippo pede para ser treinado e aprender boxe. Depois de perder uma aposta, Takamura o leva para o ginásio Kamogawa Gym, quando começa sua trajetória como pugilista (boxeador).</h6>
+        <h6>Estúdio: Madhouse, MAPPA</h6>
+        <h6>Escritor e Diretor: George Morikawa/Jun Shishido</h6>
+        <ion-item href="https://www.anitube.site/54754/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card47">
+        <div>
+          <ion-img id="imagem47"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes47" (click)='detalhes47()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos47" (click)='mostrarmenos47()'>Ver Menos</ion-button>
+      <div id="info47" style="display: none">
+        <h6>Nome: High School DxD</h6>
+        <h6>Categoria: Comédia, Harem</h6>
+        <h6>Gênero:Comédia, Drama </h6>
+        <h6>Subgênero: Comédia, Demônio</h6>
+        <h6>Episódios: 12</h6>
+        <h6>Sinopse: A história gira em torno de Issei Hyoudou, um estudante do ensino médio que é morto por sua namorada em um encontro, onde é revelado que ela é um anjo caído. Porém mais tarde é revivido como um demônio por Rias Gremory para servi-la juntamente com seu clube.</h6>
+        <h6>Estúdio: TNK</h6>
+        <h6>Escritor e Diretor:Ichiei Ishibumi/Tetsuya Yanagisawa</h6>
+        <ion-item href="https://goyabu.com/anime/highschool-dxd/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card48">
+        <div>
+          <ion-img id="imagem48"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes48" (click)='detalhes48()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermeno48" (click)='mostrarmenos48()'>Ver Menos</ion-button>
+      <div id="info48" style="display: none">
+        <h6>Nome: High Score Girl</h6>
+        <h6>Categoria: Seinen</h6>
+        <h6>Gênero:Comédia, Drama </h6>
+        <h6>Subgênero: Romance</h6>
+        <h6>Episódios: 12</h6>
+        <h6>Sinopse: Um gamer viciado e totalmente incapaz na escola e nos esportes finalmente encontra seu par em seu fliperama favorito -- e é sua colega de classe rica, Akira.</h6>
+        <h6>Estúdio: J.C.Staff</h6>
+        <h6>Escritor e Diretor: Rensuke Oshikiri/Yoshiki Yamakawa</h6>
+        <ion-item href="https://www.animesonline.cz/anime/high-score-girl">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card49">
+        <div>
+          <ion-img id="imagem49"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes49" (click)='detalhes49()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos49" (click)='mostrarmenos49()'>Ver Menos</ion-button>
+      <div id="info49" style="display: none">
+        <h6>Nome: Inazuma Eleven</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Esporte </h6>
+        <h6>Subgênero: Superpoder</h6>
+        <h6>Episódios: 127</h6>
+        <h6>Sinopse: Logo ao Endo formar um time de 11 jogadores eles tem seu primeiro jogo contra o Instituto Imperial (Royal Academy na versão portuguesa), liderado por Yuto Kido (Jude Sharp na versão portuguesa e dirigido pelo perverso Kageyama (Dark na versão portuguesa). No jogo Endo e seu time são duramente massacrados pelos jogadores do Instituto Imperial pelo fato de seus chutes de poderes. Neste mesmo tempo Goenji entra no jogo e consegue fazer um gol com o Furacão de Fogo (Fire Tornado na versão portuguesa) ao mesmo tempo que Endo faz uma defesa com a Mão Fantasma (God Hand na versão portuguesa).</h6>
+        <h6>Estúdio: OLM</h6>
+        <h6>Escritor e Diretor: Tenya Yabuno/Katsuhito Akiyama</h6>
+        <ion-item href="https://www.animalog.online/video/52222">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card50">
+        <div>
+          <ion-img id="imagem50"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes50" (click)='detalhes50()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos50" (click)='mostrarmenos50()'>Ver Menos</ion-button>
+      <div id="info50" style="display: none">
+        <h6>Nome: JoJo no Kimyou na Bouken </h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, aventura </h6>
+        <h6>Subgênero: supernatural</h6>
+        <h6>Episódios: 26</h6>
+        <h6>Sinopse: JoJo's é conta a história da família Joestar, uma família cujos vários membros descobrem que estão destinados a derrubar inimigos sobrenaturais usando poderes únicos que possuem. Sendo dividido em 8 partes únicas, cada uma seguindo a história de um membro da família Joestar, que inevitavelmente tem um nome que pode ser abreviado para o titular "JoJo". As primeiras seis partes da série ocorrem em uma única continuidade, enquanto as partes 7 e 8 ocorrem em uma continuidade alternativa.</h6>
+        <h6>Estúdio: David Production</h6>
+        <h6>Escritor e Diretor: Hirohiko Araki/Naokatsu Tsuda, Kenichi Suzuki</h6>
+        <ion-item href="https://www.animesvision.com.br/animes/jojo-no-kimyou-na-bouken">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card51">
+        <div>
+          <ion-img id="imagem51"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes51" (click)='detalhes51()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos51" (click)='mostrarmenos51()'>Ver Menos</ion-button>
+      <div id="info51" style="display: none">
+        <h6>Nome: JoJo no Kimyou na Bouken: Diamond wa Kudakenai</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, comédia </h6>
+        <h6>Subgênero: Supernatural</h6>
+        <h6>Episódios: 39</h6>
+        <h6>Sinopse: Em 1999, Jotaro Kujo, personagem principal da parte anterior, visita a cidade de Morioh para encontrar Josuke Higashikata, o filho que seu avô teve em um caso extraconjugal. Após o aparecimento de vários usuários de Stand, os dois começam a trabalhar juntos para encontrar essas pessoas, evitando que causem algum mal, e recuperar a ferramenta usada para despertar tais poderes. Durante o show, ocorrem alguns casos de assassinatos feitos por Yoshikage Kira, que mora na cidade há 15 anos. Depois que um de seus amigos morreu nas mãos desse homem, o protagonista junta uma equipe para encontrar o serial killer antes que mais vítimas apareçam.</h6>
+        <h6>Estúdio: David Production</h6>
+        <h6>Escritor e Diretor: Hirohiko Araki/Yuuta Takamura</h6>
+        <ion-item href="https://goyabu.com/anime/jojo-no-kimyou-na-bouken-diamond-wa-kudakenai/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card52">
+        <div>
+          <ion-img id="imagem52"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes52" (click)='detalhes52()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos52" (click)='mostrarmenos52()'>Ver Menos</ion-button>
+      <div id="info52" style="display: none">
+        <h6>Nome: JoJo no Kimyou na Bouken: Ougon no Kaze</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, comédia </h6>
+        <h6>Subgênero:Ação, comédia</h6>
+        <h6>Episódios: 39</h6>
+        <h6>Sinopse: Nápoles, 2001. Giorno Giovanna é um pequeno bandido com um grande sonho – tornar-se um “Gang-Star”. Nenhum ladrão comum, Giorno tem uma conexão com a notável linhagem de Joestar e possui um Stand chamado Gold Experience. Seu sonho começa a se tornar realidade quando conhece Bruno Buccellati, um mafioso da gangue Passione e também um colega de estande. Percebendo que eles compartilham ideais semelhantes, e ambos discordam dos assuntos nocivos da gangue, Giorno revela seu objetivo para Bruno: com a ajuda de Bruno, ele irá reformar Passione derrubando o chefe.</h6>
+        <h6>Estúdio: David Production</h6>
+        <h6>Escritor e Diretor: Hirohiko Araki/Kimura, Yasuhiro e Takahashi, Hideya</h6>
+        <ion-item href="https://goyabu.com/anime/jojo-no-kimyou-na-bouken-ougon-no-kaze/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card53">
+        <div>
+          <ion-img id="imagem53"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes53" (click)='detalhes53()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos53" (click)='mostrarmenos53()'>Ver Menos</ion-button>
+      <div id="info53" style="display: none">
+        <h6>Nome:JoJo no Kimyou na Bouken: Stardust Crusaders 2nd Season</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, comédia </h6>
+        <h6>Subgênero: Supernatural</h6>
+        <h6>Episódios: 24</h6>
+        <h6>Sinopse: Joutarou Kuujou e seus aliados finalmente chegaram ao Egito, onde o imortal Dio o aguarda. Após a sua chegada, o grupo ganha um novo companheiro: Iggy, um vira-lata que empunha o Stand "The Fool". No entanto, nem tudo é uma boa notícia, pois, em seu caminho, está um novo grupo de usuários do Stand que servem ao Dio, cada um com um representante do Stand de um antigo deus egípcio. À medida que a batalha final se aproxima, é uma corrida contra o tempo para libertar a mãe de Joutarou de sua maldição e acabar com o reinado de terror de Dio sobre a família Joestar de uma vez por todas.</h6>
+        <h6>Estúdio: David Production</h6>
+        <h6>Escritor e Diretor: Hirohiko Araki/Naokatsu Tsuda, Kenichi Suzuki</h6>
+        <ion-item href="https://www.animalog.online/video/50648">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card54">
+        <div>
+          <ion-img id="imagem54"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes54" (click)='detalhes54()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos54" (click)='mostrarmenos54()'>Ver Menos</ion-button>
+      <div id="info54" style="display: none">
+        <h6>Nome: Kaze ga Tsuyoku Fuiteiru</h6>
+        <h6>Categoria: Josei</h6>
+        <h6>Gênero:Drama, comédia </h6>
+        <h6>Subgênero: Slife of life, esportes</h6>
+        <h6>Episódios: 23</h6>
+        <h6>Sinopse: O novel centra-se na Tokyo-Hakone Round-Trip College Ekiden Race ou “Hakone Ekiden”, uma das maiores maratonas de estafetas universitárias do Japão. A corrida toma lugar todos os anos, a 2 e 3 de janeiro, numa percurso de ida e volta entre Tokyo e Hakone, que representa um total de quase 217.9 km.</h6>
+        <h6>Estúdio:  Production I.G</h6>
+        <h6>Escritor e Diretor: Shion Miura/Kazuya Nomura</h6>
+        <ion-item href="https://goyabu.com/anime/kaze-ga-tsuyoku-fuiteiru/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      
+  
+      <ion-card-content id="card68">
+        <div>
+          <ion-img id="imagem68"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes68" (click)='detalhes68()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos68" (click)='mostrarmenos68()'>Ver Menos</ion-button>
+      <div id="info68" style="display: none">
+        <h6>Nome:Kuroko no Basket</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Comédia, escolar </h6>
+        <h6>Subgênero: Esportes</h6>
+        <h6>Episódios: 25</h6>
+        <h6>Sinopse: Agora, Kuroko Tetsuya, o sexto membro da “Geração dos Milagres”, e Kagami Taiga, um jogador de talento natural, que passou a maior parte do ensino médio nos Estados Unidos, têm o objetivo de trazer Seirin ao topo do Japão, desafiando os antigos companheiros de Kuroko, um a um</h6>
+        <h6>Estúdio: Production I.G</h6>
+        <h6>Escritor e Diretor: Tadatoshi Fujimaki/Shunsuke Tada</h6>
+        <ion-item href="https://www.branimes.com/assistir-kuroko-no-basket/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card69">
+        <div>
+          <ion-img id="imagem69"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes69" (click)='detalhes69()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos69" (click)='mostrarmenos69()'>Ver Menos</ion-button>
+      <div id="info69" style="display: none">
+        <h6>Nome: Made in Abyss</h6>
+        <h6>Categoria: Seinen</h6>
+        <h6>Gênero:Ação, aventura </h6>
+        <h6>Subgênero: Fantasia, Sci-Fi</h6>
+        <h6>Episódios: 13</h6>
+        <h6>Sinopse: O anime gira em torno de Riko e Reg, a primeira é uma órfã que sonha em alcançar o legado da mãe falecida e, o segundo, é um robô com passado misterioso que veio do fundo do Abyss e não tem quaisquer lembranças de seu passado</h6>
+        <h6>Estúdio: Kinema Citrus</h6>
+        <h6>Escritor e Diretor: Akihito Tsukushi/Masayuki Kojima</h6>
+        <ion-item href="https://animecine.com.br/made-in-abyss-todos-episodios/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card70">
+        <div>
+          <ion-img id="imagem70"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes70" (click)='detalhes70()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos70" (click)='mostrarmenos70()'>Ver Menos</ion-button>
+      <div id="info70" style="display: none">
+        <h6>Nome: Magi</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, aventura </h6>
+        <h6>Subgênero: Fantasia, magia</h6>
+        <h6>Episódios: 50</h6>
+        <h6>Sinopse: O chefe maligno vai a procura de Aladdin, a quem ele chama de "Magi", na Dungeon. Após encarar os desafios da masmorra, Aladdin, Alibaba, Morgiana, Jamil e um outro escravo encontram o Djinn da Dungeon e então novos mistérios surgem, pois o Gênio aparenta conhecer Aladdin e também o chama de "Magi"</h6>
+        <h6>Estúdio: A-1 Pictures</h6>
+        <h6>Escritor e Diretor: Shinobu Ohtaka/Koji Masunari</h6>
+        <ion-item href="https://www.animalog.online/video/56516">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+
+      <ion-card-content id="card73">
+        <div>
+          <ion-img id="imagem73"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes73" (click)='detalhes73()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos73" (click)='mostrarmenos73()'>Ver Menos</ion-button>
+      <div id="info73" style="display: none">
+        <h6>Nome: Mirai Nikki</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, Mistério </h6>
+        <h6>Subgênero: Sobrenatural,Terror</h6>
+        <h6>Episódios: 26</h6>
+        <h6>Sinopse: Yukiteru é um garoto que poderia ser considerado estranho. Com dificuldades de fazer amigos, para ele a vida não passa de um grande reality show, onde ele é mais um espectador. Tudo que ele vê, revolve anotar tudo em seu celular fazendo dele seu diário</h6>
+        <h6>Estúdio: Asread</h6>
+        <h6>Escritor e Diretor: Sakae Esuno/Naoto Hosoda</h6>
+        <ion-item href="https://www.anitube.site/70933/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card74">
+        <div>
+          <ion-img id="imagem74"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes74" (click)='detalhes74()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos74" (click)='mostrarmenos74()'>Ver Menos</ion-button>
+      <div id="info74" style="display: none">
+        <h6>Nome:Mob Psycho 100</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, aventura </h6>
+        <h6>Subgênero: Supernatural</h6>
+        <h6>Episódios: 24</h6>
+        <h6>Sinopse: A história desenrola-se à volta de “Mob”, um jovem que explodirá se a sua capacidade emocional chegar aos 100%. Este jovem com poderes psíquicos ganhou o apelido de “Mob” pois ele não se destaca entre as outras pessoas, por isso seu nome, o qual contém várias traduções. Ele contém os seus poderes psíquicos para que possa viver normalmente, porém se o seu nível emocional chegar a 100%, sua emoção mais dominante no instante irá sobrecarregar o seu corpo inteiro. Estas emoções podem ser ditas como estresse, raiva, pavor, dentre vários outros, dependendo da situação do dia-a-dia de Mob.</h6>
+        <h6>Estúdio: Bones</h6>
+        <h6>Escritor e Diretor: One/Yuzuru Tachikawa</h6>
+        <ion-item href="https://www.animesonline.cz/anime/mob-psycho-100">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+      <ion-card-content id="card77">
+        <div>
+          <ion-img id="imagem77"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes77" (click)='detalhes77()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos77" (click)='mostrarmenos77()'>Ver Menos</ion-button>
+      <div id="info77" style="display: none">
+        <h6>Nome: Naruto</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, Aventura </h6>
+        <h6>Subgênero: Arte marcial, Superpoder</h6>
+        <h6>Episódios: 220</h6>
+        <h6>Sinopse: Naruto é uma série de mangá escrita e ilustrada por Masashi Kishimoto, que conta a história de Naruto Uzumaki, um jovem ninja que constantemente procura por reconhecimento e sonha em se tornar Hokage, o ninja líder de sua vila.</h6>
+        <h6>Estúdio: Studio Pierrot</h6>
+        <h6>Escritor e Diretor: Masashi Kishimoto/Hayato Date</h6>
+        <ion-item href="https://www.animesgratisbr.com/naruto-shippuden/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card78">
+        <div>
+          <ion-img id="imagem78"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes78" (click)='detalhes78()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos78" (click)='mostrarmenos78()'>Ver Menos</ion-button>
+      <div id="info78" style="display: none">
+        <h6>Nome: Natsume Yuujinchou Roku</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Mistério, Sobrenatural </h6>
+        <h6>Subgênero: Comédia, Vampiro</h6>
+        <h6>Episódios: 12</h6>
+        <h6>Sinopse: Até aonde ele pode se lembrar, Takashi Natsume foi amaldiçoado pela capacidade de ver espíritos também chamados de Youkais ou singularmente de Yōkai, um poder herdado de sua avó Reiko. Após a sua morte, Reiko deixa como herança para seu neto, um livro contendo os nomes dos espíritos que Reiko tinha conseguido com suas lutas contra os espíritos . O Livro dos amigos é um item muito valorizado no mundo dos espíritos, e os espíritos assombram Takashi constantemente. Takashi passa seu tempo à acabar com os contratos e liberar os vários espíritos que vêm a ele para ajudar. Mas, isso não significa que não existam espíritos maliciosos que tentam matá-lo. Que é onde Madara (chamado de Nyanko-sensei por Natsume) chega; Madara serve como guarda-costas e conselheiro de Natsume, no entanto, ele é motivado pelo seu próprio desejo de possuir O Livro dos amigos. Mais tarde, eles começam a se tornar mais ligados.</h6>
+        <h6>Estúdio: Shaft</h6>
+        <h6>Escritor e Diretor: Nishio Ishin/Nishio Ishin</h6>
+        <ion-item href="https://www.animalog.online/video/109765">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card79">
+        <div>
+          <ion-img id="imagem79"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes79" (click)='detalhes79()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos79" (click)='mostrarmenos79()'>Ver Menos</ion-button>
+      <div id="info79" style="display: none">
+        <h6>Nome:Noragami</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, aventura</h6>
+        <h6>Subgênero: Sci-fi, comédia</h6>
+        <h6>Episódios: 25</h6>
+        <h6>Sinopse: Yato é um deus menor, cujo sonho é ter um santuário e muitos seguidores para adorá-lo. Entretanto, ele é um deus quase desconhecido, e sua única parceira que o ajudava a realizar os desejos dos humanos decide deixá-lo e passa a ajudar outro deus. Enquanto ele tentava realizar um desejo sozinho, Iki Hiyori, uma comum estudante, salva-o de ser atropelado, mas sofre o acidente no lugar dele. Isso faz com que a garota passe a ter um certo problema e fica presa a Yato até que seu problema seja resolvido. Junto com Hiyori e seu novo parceiro, o deus Yato tentará ganhar fama para ser um deus reconhecido.</h6>
+        <h6>Estúdio: Bones</h6>
+        <h6>Escritor e Diretor: Adachitoka/Kotaro Tamura</h6>
+        <ion-item href="https://goyabu.com/anime/noragami/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card80">
+        <div>
+          <ion-img id="imagem80"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class=" detalhes" id="detalhes80" (click)='detalhes80()'>Detalhes</ion-button>
+      <ion-button class=" vermenos" id="vermenos80" (click)='mostrarmenos80()'>Ver Menos</ion-button>
+      <div id="info80" style="display: none">
+        <h6>Nome: One Piece</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, comédia </h6>
+        <h6>Subgênero: Super poder</h6>
+        <h6>Episódios: ??</h6>
+        <h6>Sinopse: Com sua tripulação, os Piratas do Chapéu de Palha, Luffy explora a Grand Line em busca do tesouro mais procurado do mundo, o One Piece, a fim de se tornar o próximo Rei dos Piratas.</h6>
+        <h6>Estúdio: Toei Animation</h6>
+        <h6>Escritor e Diretor: Eiichiro Oda/Tatsuya Nagamine </h6>
+        <ion-item href="ttps://www.animesgratisbr.com/one-piece/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card81">
+        <div>
+          <ion-img id="imagem81"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class="detalhes" id="detalhes81" (click)='detalhes81()'>Detalhes</ion-button>
+      <ion-button class="vermenos" id="vermenos81" (click)='mostrarmenos81()'>Ver Menos</ion-button>
+      <div id="info81" style="display: none">
+        <h6>Nome: One Punch Man</h6>
+        <h6>Categoria: Seinen</h6>
+        <h6>Gênero:Ação, comédia </h6>
+        <h6>Subgênero: Fantasia, Sci-Fi</h6>
+        <h6>Episódios: 12</h6>
+        <h6>Sinopse: One Punch-Man é uma série de webcomic criada pelo autor com o pseudónimo One, e é publicada desde 2009.</h6>
+        <h6>Estúdio: Madhouse</h6>
+        <h6>Escritor e Diretor:One/Shingo Natsume</h6>
+        <ion-item href="https://www.branimes.com/one-punch-man-online-1/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card82">
+        <div>
+          <ion-img id="imagem82"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class="detalhes" id="detalhes82" (click)='detalhes82()'>Detalhes</ion-button>
+      <ion-button class="vermenos" id="vermenos82" (click)='mostrarmenos82()'>Ver Menos</ion-button>
+      <div id="info82" style="display: none">
+        <h6>Nome: Ore Monogatari!!</h6>
+        <h6>Categoria: Shōjo</h6>
+        <h6>Gênero:Comédia, Drama </h6>
+        <h6>Subgênero: Romance</h6>
+        <h6>Episódios: 24</h6>
+        <h6>Sinopse: Takeo Gouda e Makoto Sunakawa são amigos de infância, apesar da diferença física e psicológica entre os dois. O primeiro, apesar de se mostrar forte e durão, é bastante sensível e se apaixona facilmente, porém nunca é correspondido; enquanto isso, o segundo é muito bonito, mas é indiferente em relação as garotas apaixonadas por ele. Um dia, Takeo se envolve em uma briga para proteger a jovem Rinko Yamato de um tarado do trem. Ela se torna eternamente grata a Takeo, embora sempre fique sem jeito ao seu lado. Assim, Takeo chega a conclusão de que ela, certamente, apaixonou-se por Sunakawa. No entanto, parece que, desta vez, as coisas serão diferentes</h6>
+        <h6>Estúdio:  Madhouse</h6>
+        <h6>Escritor e Diretor: Kazune Kawahara/Morio Asaka</h6>
+        <ion-item href="https://animecine.com.br/ore-monogatari-todos-episodios/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card83">
+        <div>
+          <ion-img id="imagem83"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class="detalhes" id="detalhes83" (click)='detalhes83()'>Detalhes</ion-button>
+      <ion-button class="vermenos" id="vermenos83" (click)='mostrarmenos83()'>Ver Menos</ion-button>
+      <div id="info83" style="display: none">
+        <h6>Nome: Overlord</h6>
+        <h6>Categoria: Seinen</h6>
+        <h6>Gênero:Ação, aventura </h6>
+        <h6>Subgênero: Supernatural</h6>
+        <h6>Episódios: 13</h6>
+        <h6>Sinopse: Yggdrasil é um popular jogo online que acaba sendo encerrado sem alardes certo dia. No entanto, Momonga decide não sair do jogo. Então ele é transformado num esqueleto como “o mago mais poderoso”. O mundo continua a mudar, com NPCs começando a ter catacterísticas de jogadores. Como não tem família, amigos ou lugar na sociedade real, o jovem Momonga decide lutar para dominar o novo mundo que o jogo se tornou.</h6>
+        <h6>Estúdio: Madhouse</h6>
+        <h6>Escritor e Diretor: Satoshi Ōshio/Naoyuki Itō</h6>
+        <ion-item href="https://www.branimes.com/overlord-online-todas-as-temporadas/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card84">
+        <div>
+          <ion-img id="imagem84"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class="detalhes" id="detalhes84" (click)='detalhes84()'>Detalhes</ion-button>
+      <ion-button class="vermenos" id="vermenos84" (click)='mostrarmenos84()'>Ver Menos</ion-button>
+      <div id="info84" style="display: none">
+        <h6>Nome: Psycho-Pass</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, psicológico </h6>
+        <h6>Subgênero: Sci-fi, policial</h6>
+        <h6>Episódios: 22</h6>
+        <h6>Sinopse: A história se passa em um futuro onde é possível medir e qualificar a personalidade e estado mental de uma pessoa instantaneamente. Essa informação é processada e gravada, e o termo “Psycho Pass” se refere ao padrão usado para medir o estado de espirito de um individuo.</h6>
+        <h6>Estúdio: Production I.G</h6>
+        <h6>Escritor e Diretor: Hikaru Miyoshi/Naoyoshi Shiotani</h6>
+        <ion-item href="https://www.animalog.online/video/71420">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      
+  
+  
+      <ion-card-content id="card88">
+        <div>
+          <ion-img id="imagem88"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class="detalhes" id="detalhes88" (click)='detalhes88()'>Detalhes</ion-button>
+      <ion-button class="vermenos" id="vermenos88" (click)='mostrarmenos88()'>Ver Menos</ion-button>
+      <div id="info88" style="display: none">
+        <h6>Nome: Shigatsu wa Kimi no Uso</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Romance, Drama </h6>
+        <h6>Subgênero:Música</h6>
+        <h6>Episódios: 22</h6>
+        <h6>Sinopse: A história gira em torno de Arima Kousei, um ex-prodígio que perdeu sua habilidade de tocar piano quando sua mãe morreu. Sua vida diária desde então se tornou monótona, porém, isso muda quando ele encontra uma violinista cheia de personalidade.</h6>
+        <h6>Estúdio: A-1 Pictures</h6>
+        <h6>Escritor e Diretor: Naoshi Arakawa/Kyōhei Ishiguro</h6>
+        <ion-item href="https://goyabu.com/anime/shigatsu-wa-kimi-no-uso/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card89">
+        <div>
+          <ion-img id="imagem89"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class="detalhes" id="detalhes89" (click)='detalhes89()'>Detalhes</ion-button>
+      <ion-button class="vermenos" id="vermenos89" (click)='mostrarmenos89()'>Ver Menos</ion-button>
+      <div id="info89" style="display: none">
+        <h6>Nome: Shingeki no Kyojin</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, suspense </h6>
+        <h6>Subgênero: Mistério, militar, fantasia</h6>
+        <h6>Episódios: 49</h6>
+        <h6>Sinopse:Há várias décadas atrás, a humanidade foi quase exterminada pelo súbito aparecimento de seres humanoides, conhecido como Titãs. Criaturas de tamanho enorme e de inteligência aparentemente baixa</h6>
+        <h6>Estúdio: Wit Studio</h6>
+        <h6>Escritor e Diretor: Hajime Isayama/Tetsurō Araki</h6>
+        <ion-item href="https://www.branimes.com/assistir-shingeki-no-kyojin/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+      <ion-card-content id="card93">
+        <div>
+          <ion-img id="imagem93"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class="detalhes" id="detalhes93" (click)='detalhes93()'>Detalhes</ion-button>
+      <ion-button class="vermenos" id="vermenos93" (click)='mostrarmenos93()'>Ver Menos</ion-button>
+      <div id="info93" style="display: none">
+        <h6>Nome: Sword Art Online</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, Aventura </h6>
+        <h6>Subgênero: Fantasia, Game</h6>
+        <h6>Episódios: 25</h6>
+        <h6>Sinopse: Em 2022, um jogo de realidade virtual Massively Multiplayer Online Role-Playing Game (VRMMORPG) chamado Sword Art Online foi lançado. Com o Nerver Gear, um capacete que estimula os cinco sentidos do usuário através de seu cérebro, os jogadores podem controlar seus personagens no jogo com suas mentes.</h6>
+        <h6>Estúdio: A-1 Pictures</h6>
+        <h6>Escritor e Diretor:Reki Kawahara/Tomohiko Itō</h6>
+        <ion-item href="https://goyabu.com/anime/sword-art-online/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card94">
+        <div>
+          <ion-img id="imagem94"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class="detalhes" id="detalhes94" (click)='detalhes94()'>Detalhes</ion-button>
+      <ion-button class="vermenos" id="vermenos94" (click)='mostrarmenos94()'>Ver Menos</ion-button>
+      <div id="info94" style="display: none">
+        <h6>Nome:Tate no Yuusha no Nariagari</h6>
+        <h6>Categoria: Shounen</h6>
+        <h6>Gênero:Ação, drama </h6>
+        <h6>Subgênero: Aventura</h6>
+        <h6>Episódios: 25</h6>
+        <h6>Sinopse: Naofumi Iwatani, um adolescente japonês, foi invocado por magos de um reino de um mundo paralelo junto com outros três rapazes para se tornarem heróis do mundo. Cada um dos heróis foram equipados com seu próprio equipamento lendário quando invocados. Enquanto os outros heróis receberam armas ofensivas, Naofumi recebeu o escudo lendário, a única arma defensiva. Naofumi também é incapaz de manejar qualquer arma ofensiva, como espadas e lanças.</h6>
+        <h6>Estúdio: Kinema Citrus</h6>
+        <h6>Escritor e Diretor: Aneko Yusagi/Takao Abo</h6>
+        <ion-item href="https://supergratis.biz/assistir/Tate-No-Yuusha-No-Nariagari-on-hd">Assistir</ion-item>
+      </div>
+    </ion-card>
+    
+    <ion-card>
+  
+  
+      <ion-card-content id="card97">
+        <div>
+          <ion-img id="imagem97"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class="detalhes" id="detalhes97" (click)='detalhes97()'>Detalhes</ion-button>
+      <ion-button class="vermenos" id="vermenos97" (click)='mostrarmenos97()'>Ver Menos</ion-button>
+      <div id="info97" style="display: none">
+        <h6>Nome: Tokyo Ghoul</h6>
+        <h6>Categoria: Seinen</h6>
+        <h6>Gênero:Drama, sobrenatural </h6>
+        <h6>Subgênero:Mistério, Ação</h6>
+        <h6>Episódios: 12</h6>
+        <h6>Sinopse: A história de Tokyo Ghoul gira em torno de Ken Kaneki, um estudante que mal sobrevive a um encontro mortal com Rize Kamishiro, uma mulher que se revela um ghoul; ghoul são criaturas semelhantes a humanos que caçam e devoram carne humana, com essa revelação Rize ataca Kaneki que é ferido gravemente, tentando fugir ..</h6>
+        <h6>Estúdio: Studio Pierrot</h6>
+        <h6>Escritor e Diretor: Sui Ishida/Shuhei Morita</h6>
+        <ion-item href="https://www.branimes.com/assistir-tokyo-ghoul-online-1/">Assistir</ion-item>
+      </div>
+    </ion-card>
+    <ion-card>
+  
+  
+      <ion-card-content id="card98">
+        <div>
+          <ion-img id="imagem98"></ion-img>
+  
+  
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-button color="dark" (click)="truthClick()" [disabled]="disableButton">Adicionar à Lista</ion-button>
+      <ion-button class="detalhes" id="detalhes98" (click)='detalhes98()'>Detalhes</ion-button>
+      <ion-button class="vermenos" id="vermenos98" (click)='mostrarmenos98()'>Ver Menos</ion-button>
+      <div id="info98" style="display: none">
+        <h6>Nome: Violet Evergarden</h6>
+        <h6>Categoria: Josei</h6>
+        <h6>Gênero:Drama, Romance, Ação </h6>
+        <h6>Subgênero: Fantasia, Sci-Fi</h6>
+        <h6>Episódios: 13</h6>
+        <h6>Sinopse: Com o fim da guerra, Violet Evergarden precisa recomeçar sua vida. Para isso, aceita um emprego como escritora de cartas, onde poderá encontrar sua verdadeira identidade e enfrentar o seu passado.</h6>
+        <h6>Estúdio: Kyoto Animation</h6>
+        <h6>Escritor e Diretor: Kana Akatsuki/Taichi Ishidate</h6>
+        <ion-item href="https://www.branimes.com/assistir-violet-evergarden/">Assistir</ion-item>
+      </div>
+    </ion-card>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </ion-content>

@@ -1,0 +1,75 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+      Adicione um anime
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-list>
+        <ion-item>
+          <ion-label>Animes</ion-label>
+          <ion-select [(ngModel)]="AnimeSelecionado">
+            <ion-select-option *ngFor="let item of animes" value="{{item.id}}">{{item.nome}}</ion-select-option>
+            </ion-select>
+            </ion-item>
+            </ion-list>
+        <ion-item>
+            <ion-label>Episódios Assistidos</ion-label>
+            <ion-input [(ngModel)]="newItem.valor"></ion-input>
+          </ion-item>
+
+    <ion-button fill="solid" expand="block" color="dark" (click)="addItem()">Selecionar</ion-button>
+  
+  <ion-list #mylist>
+
+   <ion-list-header>
+        <ion-label>
+          <h6>Minha Lista de Animes:</h6>
+        </ion-label>
+   </ion-list-header>
+
+   <ion-item-sliding *ngFor="let item of items">
+
+    <ion-item>
+      <ion-label>
+        <h4>{{item.titulo}}</h4>
+        <ion-text color="secundary">
+          <p>{{item.valor}}</p>
+        </ion-text>
+      </ion-label>
+ </ion-item>
+
+      <ion-item-options side="end">
+      <ion-item-option color="danger" (click)="deleteItem(item)">Apagar</ion-item-option>
+    </ion-item-options>
+  </ion-item-sliding>
+  </ion-list>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <ion-button fill="solid" expand="block" color="dark" href="/home">Início</ion-button>
+</ion-content>

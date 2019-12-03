@@ -24,17 +24,19 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'Pietro',
-      icon: 'logo-apple',
-      url: '/home',
+      title: 'Animes',
+      icon: 'logo-freebsd-devil',
+      url: '/profile',
     },
     {
-      title: 'Ribeiro',
-      icon: 'logo-google',
-      url: '/register'
+      title: 'Minha Lista',
+      icon: 'list',
+      url: '/adicionar-anime'
     }
   ];
-
+  
+  dark = false;
+  
   constructor(
     private platform: Platform,
     private splashScreen: SplashScreen,

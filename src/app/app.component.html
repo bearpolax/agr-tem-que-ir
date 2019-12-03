@@ -7,7 +7,6 @@
         </ion-toolbar>
       </ion-header>
       <ion-content>
-        <ion-button color="dark" (click)="signOut()">Sign Out</ion-button>
         <ion-list>
           <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages">
             <ion-item [routerDirection]="'root'" [routerLink]="[p.url]">
@@ -18,6 +17,15 @@
             </ion-item>
           </ion-menu-toggle>
         </ion-list>
+        <ion-list>
+            <ion-item>
+              <ion-label>
+                Tema Escuro
+              </ion-label>
+              <ion-toggle [(ngModel)]="dark"></ion-toggle>
+            </ion-item>
+          </ion-list>
+        <ion-button color="dark" (click)="signOut()">Deslogar</ion-button>
       </ion-content>
     </ion-menu>
     <ion-router-outlet main></ion-router-outlet>
